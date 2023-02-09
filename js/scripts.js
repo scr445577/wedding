@@ -184,7 +184,7 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Tu and Luan Wedding",
+            title: "Ram and Antara's Wedding",
 
             // Event start date
             start: new Date('Nov 27, 2017 10:00'),
@@ -241,7 +241,8 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var location = {lat: 22.5932759, lng: 88.27027720000001};
+    console.log("jashdjashdjhasjdhajsd");
+    var location = {lat: 21.068991575274705, lng: 105.7120659728321};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
         center: location,
